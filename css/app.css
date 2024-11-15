@@ -16,20 +16,6 @@ body {
   font-family: "Noto Naskh Arabic", serif !important;
 }
 
-.img-crop2 {
-  width: 14rem;
-  height: 14rem;
-  position: relative;
-  overflow: hidden;
-}
-
-.img-crop2 > img {
-  display: inline;
-  margin: 0 auto;
-  height: auto;
-  width: 100%;
-}
-
 .img-crop {
   width: 14rem;
   height: 14rem;
@@ -39,6 +25,20 @@ body {
 }
 
 .img-crop > img {
+  display: inline;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+}
+
+.img-crop2 {
+  width: 14rem;
+  height: 14rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-crop2 > img {
   display: inline;
   margin: 0 auto;
   height: auto;
